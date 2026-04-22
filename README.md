@@ -1,17 +1,26 @@
 
-# Breast Cancer Classification Pipeline
+<div align="center">
+  <h1>🔬 Breast Cancer Classification Pipeline</h1>
+  <p><i>Comparative Analysis of Supervised Learning for Medical Diagnostics</i></p>
 
-A comparative study of traditional machine learning models for binary classification of medical diagnostic data.
+  <img src="https://img.shields.io/badge/Model-Logistic%20Regression-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Model-Random%20Forest-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Library-Scikit--Learn-orange?style=for-the-badge" />
+</div>
 
-## Project Briefing
-This project explores the effectiveness of linear vs. ensemble models in predicting breast cancer malignancy. The primary goal is to establish a high-accuracy baseline using standardized clinical features.
+<br>
 
-### Key Components:
-* **Preprocessing:** Implementation of `StandardScaler` to normalize feature distributions.
-* **Model Comparison:** Performance benchmarking between **Logistic Regression** (linear) and **Random Forest** (ensemble).
-* **Evaluation Metrics:** Detailed classification reports focusing on minimizing False Negatives in a clinical context.
+## 📊 Model Performance
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ainaannysa01/ml/main/metrics.png" width="700" alt="Model Evaluation Metrics">
+</p>
 
-## Technical Stack
-* **Scikit-learn:** Core ML library for modeling and evaluation.
-* **Pandas/NumPy:** Data manipulation and numerical processing.
-* **Matplotlib/Seaborn:** Result visualization.
+---
+
+### 🔍 Project Briefing
+This repository establishes a robust pipeline for binary classification using the Breast Cancer Wisconsin dataset. The focus is on evaluating the trade-offs between **Linear Models** and **Ensemble Methods**.
+
+### 🛠️ Technical Workflow
+1. **Data Normalization:** Utilizing `StandardScaler` to handle feature variance.
+2. **Feature Engineering:** Analysis of tumor radius, texture, and perimeter.
+3. **Evaluation:** Implementation of Precision-Recall curves to minimize False Negatives in diagnosis.
